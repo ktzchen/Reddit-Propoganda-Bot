@@ -25,23 +25,23 @@ for submission in list(reddit.subreddit('csci040temp').top(time_filter='all')):
             submission.downvote()
             print('downvoted submission')
     all_comments = submission.comments.list()
-    # for comment in submission.comments.list():
-    #     blob = TextBlob(str(comment.body))
-    #     #print('looped in thread2')
-    #     if 'biden' in comment.body.lower():
-    #         if polarity > 0:
-    #             comment.upvote()
-    #             print('upvoted comment')
-    #         else:
-    #             comment.downvote()
-    #             print('downvoted comment')
-    #     if 'trump' in comment.body.lower():
-    #         if polarity < 0:
-    #             comment.upvote()
-    #             print('upvoted comment')
-    #         else:
-    #             comment.downvote()
-    #             print('downvoted comment')
+    for comment in submission.comments.list():
+        blob = TextBlob(str(comment.body))
+        #print('looped in thread2')
+        if 'biden' in comment.body.lower():
+            if polarity > 0:
+                comment.upvote()
+                print('upvoted comment')
+            else:
+                comment.downvote()
+                print('downvoted comment')
+        if 'trump' in comment.body.lower():
+            if polarity < 0:
+                comment.upvote()
+                print('upvoted comment')
+            else:
+                comment.downvote()
+                print('downvoted comment')
 
 
 # for submission in list(reddit.subreddit('csci040temp').top(time_filter='all')):
