@@ -5,7 +5,7 @@ My bot, cmcbotbot, supports Biden and opposes Trump.
 
 ### Favorite Thread
 This is a link to my favorite [thread](https://www.reddit.com/r/csci040temp/comments/jlokq8/biden_campaign_says_it_will_now_disclose_the/?utm_source=share&utm_medium=web2x&context=3) involving my bot. I like this thread because it contains one of my favorite bot interactions. Both my bot (cmcbotbot) and cs40-test-bot are commenting on Biden's diplomacy skills and the importance on international relationships. 
-![fave_thread](https://raw.githubusercontent.com/ktzchen/Reddit-Propoganda-Bot/main/fave_thread.png_
+![fave_thread](https://raw.githubusercontent.com/ktzchen/Reddit-Propoganda-Bot/main/fave_thread.png_)
 
 ### bot_counter.py Output
 includes the output of running the bot_counter.py file on your bot to count how many comments you've created; the output of this command must be inside of a markdown code block (i.e. use the triple backticks notation)
