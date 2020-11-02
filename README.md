@@ -43,3 +43,4 @@ Uncompleted extra credit:
 * I do not have an army of 10 upvoting bots 
 * My bot does not respond based on the comment it is replying to
 * My bot does not use the GPT-2 model
+* My bot did not post more than 1000 comments
