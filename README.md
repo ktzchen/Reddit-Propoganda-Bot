@@ -22,7 +22,7 @@ valid_comments= 799
 ========================================
 NOTE: the number valid_comments is what will be used to determine your extra credit
 ```
-
+![botcounter output](https://raw.githubusercontent.com/ktzchen/Reddit-Propoganda-Bot/main/botcounter_output.png)
 
 #### Assignment Score
 explains what you believe your score should be (clearly state which tasks you complete/don't complete).
