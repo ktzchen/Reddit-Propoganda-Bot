@@ -56,6 +56,3 @@ for submission in list(reddit.subreddit('csci040temp').top(time_filter='all')):
 #         if 'biden' in comment.body.lower():
 #             comment.upvote()
 #             print('upvoted comment')
-
-
-#how does this run in tandem with bot.py
